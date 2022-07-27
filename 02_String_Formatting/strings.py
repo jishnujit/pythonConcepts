@@ -10,9 +10,9 @@ name = "bob"
 greeting = "Hello, {}! Today is {}"
 with_name_format = greeting.format(name,"Monday")
 print(with_name_format)
-name = "rofl"
-print(with_name_format) #here the name does not get updated to 'Rolf' because the formated string is formed before
-# declaring the name as rolf. So the interpreter wont consider the change
+name = "zia"
+print(with_name_format) #here the name does not get updated to 'Zia' because the formated string is formed before
+# declaring the name as zia. So the interpreter wont consider the change
 
 
 
