@@ -2,7 +2,7 @@
 name = "Bob"
 greeting = "Hello, Bob!"
 print (greeting)
-name = "Rolf"
+name = "Zia"
 print (greeting)
 #===========================================================================
 #2 dynamic updates with format options
