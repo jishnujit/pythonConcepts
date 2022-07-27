@@ -1,3 +1,4 @@
+# explains the concept of if loop
 day_of_week = input("what day of the week is today: ").lower()
 
 if day_of_week == "monday":

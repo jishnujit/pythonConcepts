@@ -2,13 +2,13 @@
 comparisons: ==, !=, >, <, >=, <=
 key words like 'is' can also be used in booleans
 '''
-print(5 == 5)
-print(5 > 5)
+print(15 == 15)
+print(25 > 25)
 print(10 != 10)
 
 '''
-> when user defines a=10, python saves the value 10 in memory and name the memory space as 'a'.
-> Now when we define another variable 'b' with value 10, python does not create a separate memory cell for the variable
+> when user defines a=20, python saves the value 20 in memory and name the memory space as 'a'.
+> Now when we define another variable 'b' with value 20, python does not create a separate memory cell for the variable
   'b' instead, it uses the memory space of variable 'a' and give this memory space another label 'b'. Print the 
   id of both 'a' and 'b', you can see both are the same
 > This is not the case while creating lists with same values
@@ -19,8 +19,8 @@ print(10 != 10)
 > 'is' keyword checks if the two elements are exactly the same thing not whether they have exactly the same thing inside them or not
   whether they are similar, i.e. print(list1 is list2) returns false. 'is' keyword is not widely used
 '''
-a = 10
-b = 10
+a = 20
+b = 20
 print(id(a))
 print((id(b)))
 list1 = ["Bob", "Ann"]
