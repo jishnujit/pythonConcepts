@@ -6,7 +6,7 @@
 '''
 def add(x, y):
     return(x+y)
-print(add(10,5))
+print(add(10,20))
 '''
 > the above functions is now changed to lambda function as below
 > we specify the keyword 'lambda' then the list of parameters it takes (x, y) and then the return value (x+y)
